@@ -9,6 +9,7 @@ git에 익숙해지기 위한 두 가지 Test가 진행될 예정입니다.
 제한 시간은 1시간입니다.
 
 <br>
+<br>
 
 ## 1-1. 개인 Gtihub Repository 생성 및 연동
 
@@ -22,8 +23,10 @@ repository 이름은 다음과 같이 설정해주세요.
 
 clone 받은 해당 디렉토리를 본인 github의 `git-practice` 레포지토리에 연동해주세요.
 
+<br>
+
 ## 1-2. Git command 정리
----
+
 다음 `git command`에 대한 개념 정리 후 알고 있는 대로 `git-command.md` 파일을 작성하여 주세요.
 
 양식은 자유롭습니다.
@@ -40,7 +43,6 @@ clone 받은 해당 디렉토리를 본인 github의 `git-practice` 레포지토
 
 <br>
 <br>
-
 
 # 2. Backend Git test
 
