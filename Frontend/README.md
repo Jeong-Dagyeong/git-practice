@@ -1,17 +1,19 @@
-# 1. 공통 과제
+# 시험 안내 
 
 git에 익숙해지기 위한 두 가지 Test가 진행될 예정입니다.
 
 아래 설명을 잘 읽고 공통 시험과 각 분야 (F/B)별 시험을 진행해주세요.
 
-각 테스트에 따른 제출 자료를 잘 읽고 답안 코드를 누락없이 제출해주세요.
+각 테스트에 따른 제출 자료를 잘 읽고 답안을 누락없이 제출해주세요.
 
-제한 시간은 1시간입니다.
+`commit 메시지`와 `branch 네이밍` convention을 잘 지켜주세요.
+
+제한 시간은 1시간이며, 1번 시험은 반드시 제출해주시고 시간이 부족한 경우 2번 문제는 개인 별로 정리하는 시간을 가져주세요.
 
 <br>
 <br>
 
-## 1-1. 개인 Github Repository 생성 및 연동
+# 1. Frontend Git test
 
 **[Test 1]** 을 진행하기 위해 개인 Github 홈페이지로 이동 후 원격 repository를 생성해주세요.
 
@@ -23,36 +25,13 @@ repository 이름은 다음과 같이 설정해주세요.
 
 clone 받은 해당 디렉토리를 본인 github의 `git-practice` 레포지토리에 연동해주세요.
 
-<br>
-
-## 1-2. Git command 정리
-
-다음 `git command`에 대한 개념 정리 후 알고 있는 대로 `git-command.md` 파일을 작성하여 주세요.
-
-양식은 자유롭습니다.
-
-아래 내용에 얼마나 알고있는지 각자의 양식과 언어로 자유롭게 작성해주시면 됩니다.
-
-- `git init`
-- `git remote add origin <remote repository url>`
-- `git add <file name>`
-- `git commit`
-- `git push origin <branch name>`
-- `git pull origin <branch name>`
-- `git merge <branch name>`
-
-<br>
-<br>
-
-# 2. Frontend Git test
-
-이번에는 git 명령어를 실제로 적용해보고, conflict가 발생했을 때 이를 해결하는 과정을 익힐 수 있습니다.
+git 명령어를 실제로 적용해보고, conflict가 발생했을 때 이를 해결하는 과정을 익힐 수 있습니다.
 
 아래 설명을 잘 읽고 시험을 진행해 주세요.
 
 <br>
 
-## 2-1. Install node modules
+## 1-1. Install node modules
 
 1. 터미널에서 `git-test`폴더로 진입해 주세요.
 
@@ -70,7 +49,7 @@ npm install
 
 <br>
 
-## 2-2. feature/login
+## 1-2. feature/login
 
 1. `Frontend/git-test/` 경로의 `main` 브랜치에서 `feature/login` 브랜치를 생성해 주세요.
 
@@ -201,7 +180,7 @@ export default function Login() {
 
 <br>
 
-## 2-2. feature/main
+## 1-3. feature/main
 
 1. `Frontend/git-test/` 경로의 `main` 브랜치에서 `feature/main` 브랜치를 생성해 주세요.
 
@@ -293,7 +272,7 @@ export default function Main() {
 
 <br>
 
-## 2-3. merge Login PR
+## 1-4. merge Login PR
 
 1. github 레포지토리로 이동 후 `feature/login` PR을 `merge`해 주세요.
 
@@ -303,7 +282,7 @@ export default function Main() {
 
 <br>
 
-## 2-4. Resolving conflicts
+## 1-5. Resolving conflicts
 
 1. `main` 브랜치에서 `pull`을 실행해 주세요.
 
@@ -314,3 +293,22 @@ export default function Main() {
 4. `과제 : 아래와 같이 github에서 feature/main관련 PR에서 Conflict가 해결된 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
 
 ![git-test-3](https://user-images.githubusercontent.com/37888503/202905196-5acb5e11-0ba9-4677-9d39-d97f999752e9.png)
+
+<br>
+<br>
+
+# 2. Git command 정리
+
+다음 `git command`에 대한 개념 정리 후 알고 있는 대로 `git-test/READE.md` 파일을 작성하여 주세요.
+
+양식은 자유롭습니다.
+
+아래 내용에 얼마나 알고있는지 각자의 양식과 언어로 자유롭게 작성해주시면 됩니다.
+
+- `git init`
+- `git remote add origin <remote repository url>`
+- `git add <file name>`
+- `git commit`
+- `git push origin <branch name>`
+- `git pull origin <branch name>`
+- `git merge <branch name>`
