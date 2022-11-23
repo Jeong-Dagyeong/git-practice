@@ -4,18 +4,28 @@ git에 익숙해지기 위한 두 가지 Test가 진행될 예정입니다.
 
 아래 설명을 잘 읽고 공통 시험과 각 분야 (F/B)별 시험을 진행해주세요.
 
-각 테스트에 따른 제출 자료를 잘 읽고 답안 코드를 누락없이 제출해주세요.
+각 테스트에 따른 제출 자료를 잘 읽고 답안을 누락없이 제출해주세요.
 
-commit 메시지와 branch 네이밍 convention을 잘 지켜주세요.
+`commit 메시지`와 `branch 네이밍` convention을 잘 지켜주세요.
 
-제한 시간은 1시간이며, 시간이 부족한 경우 2번 문제는 개인 별로 정리하는 시간을 가져주세요.
+제한 시간은 1시간이며, 1번 시험은 반드시 제출해주시고 시간이 부족한 경우 2번 문제는 개인 별로 정리하는 시간을 가져주세요.
 
 <br>
 <br>
 
-# Backend Git test
+# 1.Backend Git test
 
-이번에는 git 명령어를 실제로 적용해보고, conflict가 발생했을 때 이를 해결하는 과정을 익힐 수 있습니다.
+**[Test 1]** 을 진행하기 위해 개인 Github 홈페이지로 이동 후 원격 repository를 생성해주세요.
+
+repository 이름은 다음과 같이 설정해주세요.
+
+```
+  git-practice
+```
+
+clone 받은 해당 디렉토리를 본인 github의 `git-practice` 레포지토리에 연동해주세요.
+
+git 명령어를 실제로 적용해보고, conflict가 발생했을 때 이를 해결해보겠습니다.
 
 아래 설명을 잘 읽고 시험을 진행해주세요.
 
@@ -29,11 +39,13 @@ commit 메시지와 branch 네이밍 convention을 잘 지켜주세요.
 
 다음 단계부터는 개인 github 레포지토리에 push 해주세요.
 
+<br>
+
 ## 1-2. feature/signup
 
-1. main 브랜치에서 `feature/kimcode-signup` 브랜치를 생성해주세요.
+1. main 브랜치에서 `feature/signup` 브랜치를 생성해주세요.
 
-2. `feature/kimcode-signup` 브랜치로 이동하여 아래 예시코드와 동일한 내용을 `app.js`에서 작업해주세요.
+2. `feature/signup` 브랜치로 이동하여 아래 예시코드와 동일한 내용을 `app.js`에서 작업해주세요.
 
 3. 위 작업이 완료되었으면 해당 브랜치를 `push`하여 `PR (pull request)`을 생성해주세요.  
 commit message 컨벤션을 따르고 있는지 다시 한번 확인해주세요!
@@ -67,16 +79,7 @@ app.post('/users/signup', async (req, res) => {
 
 2. `feature/kimcode-signin` 브랜치로 이동하여 아래 예시코드와 동일한 내용을 `app.js`에서 작업해주세요.
 
-3. 위 작업이 완료되었으면 해당 브랜치를 `push`하여 `PR (pull request)`을 생성해주세요.
-
-4. github 레포지토리로 이동 후 `feature/signup` PR을 main 브랜치로 병합해주세요.
-
-5. `feature/signin` PR로 이동하여 해당 PR을 main 브랜치로 병합해주세요.
-
-6. `conflict` 가 발생하였다면 conflict를 해결 후 main 브랜치로 병합해주세요.
-
 예시 코드)
-
 ```javascript
 app.post('/users/signin', async (req, res) => {
   const { email, password } = req.body;
@@ -97,26 +100,40 @@ app.post('/users/signin', async (req, res) => {
 })
 ```
 
-<br>
-<br>
+3. `과제 : 아래와 같이 PR 2개가 등록 된 브라우저의 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.` 
 
-## 2-1. 개인 Gtihub Repository 생성 및 연동
-
-**[Test 1]** 을 진행하기 위해 개인 Github 홈페이지로 이동 후 원격 repository를 생성해주세요.
-
-repository 이름은 다음과 같이 설정해주세요.
-
-```
-  git-practice
-```
-
-clone 받은 해당 디렉토리를 본인 github의 `git-practice` 레포지토리에 연동해주세요.
+![image](https://user-images.githubusercontent.com/93123657/203447849-fb89c460-57d4-4023-9db2-aee202ead2cc.png)
 
 <br>
 
-## 2-2. Git command 정리
+## 1-3. Merge sign-up feature PR 
 
-다음 `git command`에 대한 개념 정리 후 알고 있는 대로 `git-command.md` 파일을 작성하여 주세요.
+1. github 레포지토리로 이동 후 `feature/signup` PR을 `merge`해 주세요.
+
+2. `과제 : 아래와 같이 github의 feature/main관련 PR에서 Conflict가 발생한 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
+
+![image](https://user-images.githubusercontent.com/93123657/203447843-622f7afe-a3f4-4e0c-827f-6808be94f782.png)
+
+<br>
+
+## 1-4. Resolving conflicts
+
+1. `main` 브랜치에서 `pull`을 실행해 주세요.
+
+2. `feature/signin` 브랜치로 이동 후 main 브랜치를 `merge`를 해주세요.
+
+3. `conflict`가 발생하였다면 `conflict`를 해결해 주시고 `push`해 주세요.
+
+4. `과제 : 아래와 같이 github에서 feature/main관련 PR에서 Conflict가 해결된 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
+
+![image](https://user-images.githubusercontent.com/93123657/203447780-b8d8d667-d2a5-4de4-a479-efceff068209.png)
+
+<br>
+<br>
+
+# 2. Git command 정리
+
+다음 `git command`에 대한 개념 정리 후 알고 있는 대로 `git-test/READE.md` 파일을 작성하여 주세요.
 
 양식은 자유롭습니다.
 
