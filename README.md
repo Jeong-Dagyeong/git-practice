@@ -74,4 +74,6 @@ repository 이름은 아래과 같이 설정해주세요:
     ```
 
 
-참고링크: [Commit-message Convention Westudy 이동](https://study.wecode.co.kr/session/content/123)
+참고링크
+[Commit-message Convention Westudy 이동](https://study.wecode.co.kr/session/content/123)
+[Github 활용법 및 유의 사항](https://wecode.notion.site/Github-5696658a360f4e789159c75d65b885ec)
