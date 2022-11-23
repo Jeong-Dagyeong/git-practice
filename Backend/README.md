@@ -77,7 +77,7 @@ app.post('/users/signup', async (req, res) => {
 
 1. main 브랜치로 이동 후 `feature/kimcode-signin` 브랜치를 생성해주세요.
 
-2. `feature/kimcode-signin` 브랜치로 이동하여 아래 예시코드와 동일한 내용을 `app.js`에서 작업해주세요.
+2. `feature/signin` 브랜치로 이동하여 아래 예시코드와 동일한 내용을 `app.js`에서 작업해주세요.
 
 예시 코드)
 ```javascript
@@ -110,7 +110,7 @@ app.post('/users/signin', async (req, res) => {
 
 1. github 레포지토리로 이동 후 `feature/signup` PR을 `merge`해 주세요.
 
-2. `과제 : 아래와 같이 github의 feature/main관련 PR에서 Conflict가 발생한 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
+2. `과제 : 아래와 같이 github의 feature/singin 관련 PR에서 Conflict가 발생한 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
 
 ![back-2](https://user-images.githubusercontent.com/93123657/203455709-da3fdad1-9538-4335-8fd8-36d968fc32c8.png)
 
@@ -124,7 +124,7 @@ app.post('/users/signin', async (req, res) => {
 
 3. `conflict`가 발생하였다면 `conflict`를 해결해 주시고 `push`해 주세요.
 
-4. `과제 : 아래와 같이 github에서 feature/main관련 PR에서 Conflict가 해결된 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
+4. `과제 : 아래와 같이 github에서 feature/signin 관련 PR에서 Conflict가 해결된 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
 
 ![back-3](https://user-images.githubusercontent.com/93123657/203455788-11e71d2d-aa13-4ddd-a197-8658308675ee.png)
 
