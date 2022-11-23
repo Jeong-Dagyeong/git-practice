@@ -102,7 +102,7 @@ app.post('/users/signin', async (req, res) => {
 
 3. `과제 : 아래와 같이 PR 2개가 등록 된 브라우저의 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.` 
 
-![image](./git-test/src/pull-requests.png)
+![image](https://user-images.githubusercontent.com/93123657/203447849-fb89c460-57d4-4023-9db2-aee202ead2cc.png)
 
 <br>
 
@@ -112,7 +112,7 @@ app.post('/users/signin', async (req, res) => {
 
 2. `과제 : 아래와 같이 github의 feature/main관련 PR에서 Conflict가 발생한 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
 
-![image](./git-test/src/conflicts.png)
+![image](https://user-images.githubusercontent.com/93123657/203447843-622f7afe-a3f4-4e0c-827f-6808be94f782.png)
 
 <br>
 
@@ -126,7 +126,7 @@ app.post('/users/signin', async (req, res) => {
 
 4. `과제 : 아래와 같이 github에서 feature/main관련 PR에서 Conflict가 해결된 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
 
-![image](./git-test/src/resolved.png)
+![image](https://user-images.githubusercontent.com/93123657/203447780-b8d8d667-d2a5-4de4-a479-efceff068209.png)
 
 <br>
 <br>
