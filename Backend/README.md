@@ -73,7 +73,7 @@ app.post('/users/signup', async (req, res) => {
 ```
 <br>
 
-## 1-2. feature/signin
+## 1-3. feature/signin
 
 1. main 브랜치로 이동 후 `feature/kimcode-signin` 브랜치를 생성해주세요.
 
@@ -106,7 +106,7 @@ app.post('/users/signin', async (req, res) => {
 
 <br>
 
-## 1-3. Merge sign-up feature PR 
+## 1-4. Merge sign-up feature PR 
 
 1. github 레포지토리로 이동 후 `feature/signup` PR을 `merge`해 주세요.
 
@@ -116,7 +116,7 @@ app.post('/users/signin', async (req, res) => {
 
 <br>
 
-## 1-4. Resolving conflicts
+## 1-5. Resolving conflicts
 
 1. `main` 브랜치에서 `pull`을 실행해 주세요.
 
