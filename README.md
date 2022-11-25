@@ -22,7 +22,7 @@
 
 2. 이 레포지토리를 clone 받아 `1번`에서 생성한 repository로 remote 주소를 변경해주세요.
 
-   - `wecode-git-test` 레포지토리 클론받기.
+   - `wecode-git-test` 레포지토리를 클론해주세요.
    
     ```shell
         $ git clone https://github.com/wecode-bootcamp-korea/wecode-git-test.git
