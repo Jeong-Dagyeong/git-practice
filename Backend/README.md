@@ -25,6 +25,24 @@ repository 이름은 다음과 같이 설정해주세요.
 
 clone 받은 해당 디렉토리를 본인 github의 `git-practice` 레포지토리에 연동해주세요.
 
+  - `wecode-git-test` 레포지토리를 클론해주세요.
+   
+    ```shell
+        $ git clone https://github.com/wecode-bootcamp-korea/wecode-git-test.git
+    ```
+    
+  - 터미널에서 클론 받은 레포지토리의 디렉토리 경로로 이동 후 remote 연결을 해제해주세요.
+   
+    ```shell
+        $ git remote remove origin
+    ```
+
+  - 이후 개인 Github에 생성한 레포지토리의 주소로 remote를 다시 연동해주세요.
+   
+    ```shell
+        $ git remote add origin https://github.com/GITHUB_USERNAME/git-practice.git
+    ```
+    
 git 명령어를 실제로 적용해보고, conflict가 발생했을 때 이를 해결해보겠습니다.
 
 아래 설명을 잘 읽고 시험을 진행해주세요.
