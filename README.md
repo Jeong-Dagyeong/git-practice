@@ -22,10 +22,23 @@
 
 2. 이 레포지토리를 clone 받아 `1번`에서 생성한 repository로 remote 주소를 변경해주세요.
 
-   ```shell
-        // 원격 저장소 연결 해제
+   - `wecode-git-test` 레포지토리 클론받기.
+   
+    ```shell
+        $ git clone https://github.com/wecode-bootcamp-korea/wecode-git-test.git
+    ```
+    
+   - 터미널에서 클론 받은 레포지토리의 디렉토리 경로로 이동 후 remote 연결을 해제해주세요.
+   
+    ```shell
         $ git remote remove origin
-   ```
+    ```
+
+   - 이후 개인 Github에 생성한 레포지토리의 주소로 remote를 다시 연동해주세요.
+   
+    ```shell
+        $ git remote add origin https://github.com/GITHUB_USERNAME/git-practice.git
+    ```
 
 3. 이후 본인 진로에 따른 폴더로 이동하여 공통과제 1개와 분야별 과제 1개를 진행해주세요.
 
