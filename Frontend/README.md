@@ -25,7 +25,7 @@ repository 이름은 다음과 같이 설정해주세요.
 
 clone 받은 해당 디렉토리를 본인 github의 `git-practice` 레포지토리에 연동해주세요.
 
-  - `wecode-git-test` 레포지토리 클론받기.
+  - `wecode-git-test` 레포지토리를 클론해주세요.
    
     ```shell
         $ git clone https://github.com/wecode-bootcamp-korea/wecode-git-test.git
