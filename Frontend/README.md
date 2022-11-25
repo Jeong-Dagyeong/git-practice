@@ -1,4 +1,4 @@
-# 시험 안내 
+# 시험 안내
 
 git에 익숙해지기 위한 두 가지 Test가 진행될 예정입니다.
 
@@ -171,11 +171,17 @@ export default function Login() {
 }
 ```
 
-5. `npm start` 입력 후 아래와 같은 화면이 브라우저에 나오는지 확인해 주세요.
+5. `Router.js`에서 `/`의 경로에 `Login` 컴포넌트가 보일 수 있도록 변경해 주세요.
+
+```javascript
+<Route path="/" element={<Login />} />
+```
+
+6. `npm start` 입력 후 아래와 같은 화면이 브라우저에 나오는지 확인해 주세요.
 
 ![git-test-1](https://user-images.githubusercontent.com/37888503/202239045-2757111e-0ee1-4045-910f-1890b1d0db73.gif)
 
-6. 위 작업이 완료되었으면 해당 브랜치를 `push`하여 `PR (pull request)`을 생성해 주세요.  
+7. 위 작업이 완료되었으면 해당 브랜치를 `push`하여 `PR (pull request)`을 생성해 주세요.  
    commit message 컨벤션을 따르고 있는지 다시 한번 확인해주세요!
 
 <br>
@@ -189,17 +195,14 @@ export default function Login() {
 ```shell
 src
  └── pages
-       └── Login
-             └── Login.js
-             └── Login.css
        └── Main
              └── Main.js
              └── Main.css
 ```
 
-2. `Main`폴더를 생성해 주시고 폴더 안에 `Main.js`와 `Main.css` 파일을 생성해 주세요.
+3. `Main`폴더를 생성해 주시고 폴더 안에 `Main.js`와 `Main.css` 파일을 생성해 주세요.
 
-3. `Main.js`에 아래의 코드를 입력해 주세요.
+4. `Main.js`에 아래의 코드를 입력해 주세요.
 
 ```javascript
 import React from 'react';
@@ -219,7 +222,7 @@ export default function Main() {
 }
 ```
 
-4. `Main.css`에 아래의 코드를 입력해 주세요.
+5. `Main.css`에 아래의 코드를 입력해 주세요.
 
 ```css
 .main {
@@ -253,20 +256,20 @@ export default function Main() {
 }
 ```
 
-5. `Router.js`에서 `url` 주소를 `/main`으로 설정하시고 `Main`컴포넌트를 연결해 주세요.
+6. `Router.js`에서 `url` 주소를 `/main`으로 설정하시고 `Main` 컴포넌트를 연결해 주세요.
 
 ```javascript
 <Route path="/main" element={<Main />} />
 ```
 
-6. `npm start` 입력 후 아래와 같은 화면이 브라우저에 나오는지 확인해 주세요.
+7. `npm start` 입력 후 아래와 같은 화면이 브라우저에 나오는지 확인해 주세요.
 
 ![git-test-2](https://user-images.githubusercontent.com/37888503/202240758-dffad4ae-aaa3-48d5-af7f-28366dc56181.gif)
 
-7. 위 작업이 완료되었으면 해당 브랜치를 `push`하여 `PR (pull request)`을 생성해 주세요.  
+8. 위 작업이 완료되었으면 해당 브랜치를 `push`하여 `PR (pull request)`을 생성해 주세요.  
    commit message 컨벤션을 따르고 있는지 다시 한번 확인해주세요!
 
-8. `과제 : 아래와 같이 PR 2개가 등록 된 브라우저의 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
+9. `과제 : 아래와 같이 PR 2개가 등록 된 브라우저의 화면을 캡쳐하여 구글 클래스룸에 업로드 해주세요.`
 
 ![git-test-1](https://user-images.githubusercontent.com/37888503/202905344-351d4f73-9947-4bf6-80ea-705f4bab2a43.png)
 
@@ -284,7 +287,7 @@ export default function Main() {
 
 ## 1-5. Resolving conflicts
 
-1. `main` 브랜치에서 `pull`을 실행해 주세요.
+1. `main` 또는 `master` 브랜치에서 `pull`을 실행해 주세요.
 
 2. `feature/main` 브랜치로 이동 후 `merge`를 해주세요.
 

@@ -14,16 +14,22 @@
 시험은 공통과제 1개와 프/백 별 과제 1개씩으로 구성됩니다.
 
 1. 본인 github 페이지로 이동하여 repository를 생성해주세요.  
-repository 이름은 아래과 같이 설정해주세요:
-    ```
-        git-practice
-    ```
+   repository 이름은 아래과 같이 설정해주세요:
+
+   ```shell
+        $ git-practice
+   ```
 
 2. 이 레포지토리를 clone 받아 `1번`에서 생성한 repository로 remote 주소를 변경해주세요.
 
+   ```shell
+        // 원격 저장소 연결 해제
+        $ git remote remove origin
+   ```
+
 3. 이후 본인 진로에 따른 폴더로 이동하여 공통과제 1개와 분야별 과제 1개를 진행해주세요.
 
-4. 다른 개발자와 협업을 하기위해 `branch naming`과 `commit message`와 관련된 convention이 존재합니다. 아래 __참고사항__ 을 확인하여 이번 시험에 적용해주세요. 
+4. 다른 개발자와 협업을 하기위해 `branch naming`과 `commit message`와 관련된 convention이 존재합니다. 아래 **참고사항** 을 확인하여 이번 시험에 적용해주세요.
 
 <br>
 <br>
@@ -56,27 +62,28 @@ repository 이름은 아래과 같이 설정해주세요:
 `commit` 메시지는 다른 개발자가 나의 개발 작업을 이해하기 쉽게 작성해 놓은 요약본입니다. 아래 예시를 참고하여 시험에 대한 내용이 충분히 전달될 수 있도록 commit 메시지를 작성해주세요.
 
 - 커밋메시지 작성 예시:
-    ```
-        // 로그인 기능을 구현하여 새로운 코드를 추가하는 경우
-        Add: 로그인 기능 구현 완료
 
-        // 추가된 로그인 기능에 수정 사항을 반영한 경우 (Multi-line command)
-        Modify: 로그인 기능 구현 수정
-            - 이메일 유효성 검사 로직 수정
-            - 비밀번호 유효성 검사 로직 수정 
+  ```
+      // 로그인 기능을 구현하여 새로운 코드를 추가하는 경우
+      Add: 로그인 기능 구현 완료
 
-        // 추후 프로젝트 간 기수 구분을 위해 다음과 같이 작성할 수도 있습니다.
-        [OO기 김코드] Add: 로그인 기능 구현 완료
+      // 추가된 로그인 기능에 수정 사항을 반영한 경우 (Multi-line command)
+      Modify: 로그인 기능 구현 수정
+          - 이메일 유효성 검사 로직 수정
+          - 비밀번호 유효성 검사 로직 수정
 
-        [OO기 김코드] Modify: 로그인 그닝 구현 수정
-            - 이메일 유효성 검사 로직 수정
-            - 비밀번호 유효성 검사 로직 수정 
-    ```
+      // 추후 프로젝트 간 기수 구분을 위해 다음과 같이 작성할 수도 있습니다.
+      [OO기 김코드] Add: 로그인 기능 구현 완료
 
---- 
+      [OO기 김코드] Modify: 로그인 그닝 구현 수정
+          - 이메일 유효성 검사 로직 수정
+          - 비밀번호 유효성 검사 로직 수정
+  ```
+
+---
 
 참고링크
 
-[Commit message Convention](https://study.wecode.co.kr/session/content/123). 
+[Commit message Convention](https://study.wecode.co.kr/session/content/123).
 
 [Github 활용법 및 유의 사항](https://wecode.notion.site/Github-5696658a360f4e789159c75d65b885ec)
